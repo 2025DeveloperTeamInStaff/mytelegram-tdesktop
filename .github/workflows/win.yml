@@ -50,7 +50,7 @@ jobs:
     strategy:
       matrix:
         arch: [x64]
-        generator: ["", "Ninja Multi-Config"]
+        generator: [""]
 
     env:
       UPLOAD_ARTIFACT: "true"
